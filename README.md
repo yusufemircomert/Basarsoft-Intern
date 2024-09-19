@@ -20,7 +20,7 @@ In this project, I made a **Map project** with the **back-end** and **front-end*
 
 ---
 ### Technologies
-Projede kullanılan başlıca teknolojiler:
+Main technologies used in the project:
 <br>
 
 **Frontend:**
@@ -35,10 +35,10 @@ ASP.NET Core Web API - **C#**
 
 **Veritabanı:**
 <br>
-PostgreSQL- Coğrafi veritabanı ve uzamsal sorgulamalar
+PostgreSQL- Geographic database and spatial queries
 <br>
 
 **Map Integration:**
 <br>
-OpenLayers - Harita entegrasyonu için <br>
-JsPanel - Dinamik paneller ve kullanıcı arayüzü bileşenleri
+OpenLayers - For map integration <br>
+JsPanel - Dynamic panels and UI components
