@@ -15,7 +15,7 @@ In this project, I made a **Map project** with the **back-end** and **front-end*
 Projede kullanılan başlıca teknolojiler:
 <br>
 
-**Frontend:**
+<u> **Frontend:** </u>
 <br>
 **HTML**, **CSS**, **JavaScript**
 **OpenLayers** - Harita entegrasyonu için
