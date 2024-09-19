@@ -17,7 +17,7 @@ Projede kullanılan başlıca teknolojiler:
 
 **Frontend:**
 <br>
-**HTML5**, **CSS3**, **JavaScript**
+**HTML**, **CSS**, **JavaScript**
 **OpenLayers** - Harita entegrasyonu için
 **JsPanel** - Dinamik paneller ve kullanıcı arayüzü bileşenleri
 Datatables - Tablo ve veri yönetimi
