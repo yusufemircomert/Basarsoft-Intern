@@ -4,11 +4,6 @@ In this project, I made a **Map project** with the **back-end** and **front-end*
 ## Index
 - [Features](#features)
 - [Technologies](#technologies)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
-
 ---
 
 ### Features
@@ -42,3 +37,5 @@ PostgreSQL- Geographic database and spatial queries
 <br>
 OpenLayers - For map integration <br>
 JsPanel - Dynamic panels and UI components
+
+---
