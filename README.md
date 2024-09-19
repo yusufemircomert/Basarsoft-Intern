@@ -14,7 +14,7 @@ In this project, I made a **Map project** with the **back-end** and **front-end*
 **Eye-Friendly Design:** A design that minimizes eye strain with a simple, clean and modern interface.
 
 ---
-### Technologies
+## Technologies
 Main technologies used in the project:
 <br>
 
