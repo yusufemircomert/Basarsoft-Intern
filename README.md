@@ -6,7 +6,7 @@ In this project, I made a **Map project** with the **back-end** and **front-end*
 - [Technologies](#technologies)
 ---
 
-### Features
+## Features
 **CRUD Operations with WKT Geometries using OpenLayers:** Utilize the OpenLayers library for performing CRUD (Create, Read, Update, Delete) operations with geometries in WKT (Well-Known Text) format.
 
 **Night Mode:** A night mode feature that reduces eye strain for users.
