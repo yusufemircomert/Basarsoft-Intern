@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.0.0/ol.css">
+    <link href="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.0.0/dist/ol.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jspanel4@4.15.0/dist/jspanel.js"></script>
+    
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <span class="comert">Comert</span><span class="soft">Soft</span>
+        </div>
+        <div class="buttons">
+            <button id="addBtn">Add Geometry</button>
+            <button id="queryBtn">Query</button>
+            <button id="toggleThemeBtn">Night Mode</button>
+        </div>
+    </div>
+
+    <!-- Geometry Type Modal -->
+    <div id="addGeometryModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Choose Geometry Type</h2>
+            <button id="selectPoint">Point</button>
+            <button id="selectLineString">Line String</button>
+            <button id="selectPolygon">Polygon</button>
+        </div>
+    </div>
+    
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- PopUp -->
+    <div id="popup" class="ol-popup">
+        <div class="popup-content">
+            <p><strong>WKT:</strong> <span id="wkt"></span></p>
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><span id="popup-id"></span></p>
+            <p id="x-coord-container" style="display: none;"><strong>X:</strong> <span id="x-coord"></span></p>
+            <p id="y-coord-container" style="display: none;"><strong>Y:</strong> <span id="y-coord"></span></p>
+        </div>
+        <div class="popup-buttons">
+            <button id="updateBtn" class="popup-btn popup-update">Update</button>
+            <button id="deleteBtn" class="popup-btn popup-delete">Delete</button>
+            
+
+        </div>
+    </div>
+
+    <!-- Add Point Panel -->
+    <div id="addPointPanel" class="jsPanel query-panel">
+        <div class="panel-header">
+            <span class="panel-title">Add Point</span>
+            <button class="panel-close">×</button>
+        </div>
+        <div class="panel-content">
+            <div class="form-group">
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput">
+            </div>
+            <div class="form-group">
+                <label for="idInput">ID:</label>
+                <input type="text" id="idInput">
+            </div>
+            <div class="form-group">
+                <label for="xInput">X Coordinate:</label>
+                <input type="text" id="xInput">
+            </div>
+            <div class="form-group">
+                <label for="yInput">Y Coordinate:</label>
+                <input type="text" id="yInput">
+            </div>
+            <button id="saveBtn">Save</button>
+        </div>
+    </div>
+
+    <!-- Update Modal -->
+    <div id="updateModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>How To Update?</h2>
+            <button id="updateFromPanel">From Panel</button>
+            <button id="updateFromMap">From Map</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
