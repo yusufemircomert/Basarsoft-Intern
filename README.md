@@ -40,7 +40,7 @@ HTML, CSS, JavaScript
 ASP.NET Core Web API - **C#**
 <br>
 
-**Veritabanı:**
+**Database:**
 <br>
 PostgreSQL- Geographic database and spatial queries
 <br>
