@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
             width: 2
         }),
         fill: new ol.style.Fill({
-            color: 'rgba(210, 210, 210, 0.4)' // Semi-transparent fill
+            color: 'rgba(210, 210, 210, 0.3)' // Semi-transparent fill
         })
     });
 
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             width: 2
         }),
         fill: new ol.style.Fill({
-            color: 'rgba(0, 0, 0, 0.4)' // Semi-transparent fill
+            color: 'rgba(0, 0, 0, 0.3)' // Semi-transparent fill
         })
     });
 
