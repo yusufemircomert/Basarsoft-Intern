@@ -464,7 +464,6 @@ document.addEventListener('DOMContentLoaded', function () {
         
         if (!isNaN(x) && !isNaN(y)) {
             addFeature([x, y], name, id, "Point"); // Add new marker
-            closePanel(); // Close the panel
             loadGeometries();
             loadPoints();
         } else {
@@ -472,9 +471,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    function closePanel() {
-        // Add panel closing functionality here
-    }
+
 
     function loadPoints(){
         // Fetch previously marked points
