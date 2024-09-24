@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     .then(data => {
                         Swal.fire({
                             icon: 'success',
-                            title: 'The Polygon Updated Successfully!',
+                            title: 'The Geometry Updated Successfully!',
                             showConfirmButton: true,
                             timer: 1500
                         });
